@@ -36,14 +36,14 @@
   display: flex;
 }
 #incomplete, #completed {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .ul-item, .h3 {
-  list-style:none;
+  list-style: none;
 }
 .task, .edit, .delete, .add {
-  outline:none;
+  outline: none;
 }
 .edit, .delete, .add {
   background: none;
@@ -136,14 +136,14 @@
 
 /* Edit Task */
 .ul-item [type=text] {
-  display:none
+  display: none
 }
 
 .edit-mode [type=text] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .edit-mode .label {
-  display:none;
+  display: none;
 }
