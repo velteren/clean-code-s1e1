@@ -30,7 +30,7 @@
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .task-row-wrapper {
   display: flex;
@@ -117,7 +117,7 @@
   width: 226px;
 }
 .ul-item > .task[type="text"] {
-  width: 226px
+  width: 226px;
 }
 .delete > * {
   height: 2em;
@@ -130,18 +130,18 @@
 
 /* Completed */
 #completed .label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .ul-item [type=text] {
-  display: none
+  display: none;
 }
 
 .edit-mode [type=text] {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .edit-mode .label {
